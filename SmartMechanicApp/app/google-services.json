@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "423409825477",
+    "project_id": "smartmechanicapp",
+    "storage_bucket": "smartmechanicapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423409825477:android:5574703ebc4fae995aa2ac",
+        "android_client_info": {
+          "package_name": "com.smartmechanic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423409825477-gcv4a91u7l4543vgos6p9n700omohdj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRF-4C212jrt1p9fpxN-XKzinS-JIT7qM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423409825477-gcv4a91u7l4543vgos6p9n700omohdj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
