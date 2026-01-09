@@ -1,0 +1,16 @@
+package com.example.notey.roomdb
+
+import androidx.lifecycle.LiveData
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.Query
+
+@Dao
+interface NoteDao {
+    // defines methods for various operations
+    @Insert
+    suspend fun insert(note: Note)
+
+    @Query("SELECT * FROM Note")
+    fun getAllNotes(): LiveData<List<Note>>
+}
